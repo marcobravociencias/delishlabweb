@@ -2,9 +2,9 @@ import React from 'react';
 
 function HeroComponent() {
     return (
-        <div className="mt-36 overflow-hidden sm:mt-36">
+        <div className="mt-24 overflow-hidden sm:mt-36">
             <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
+                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 -gap-y-16 lg:gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                     <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Delish Lab</h1>
                         <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
@@ -17,16 +17,16 @@ function HeroComponent() {
                                 Haz tu pedido en línea y consiente tu antojo con lo más delicioso de la repostería.
                             </p>
                         </div>
-                        <div className="py-12">
+                        <div className="pt-12">
                             <button
                                 type="button"
-                                className="rounded-full bg-white px-3.5 py-2 text-sm font-semibold text-gray-900 shadow-xs ring-1 ring-gray-300 ring-inset hover:bg-gray-50"
+                                className="rounded-full bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow-xs ring-1 ring-gray-300 ring-inset hover:bg-gray-200"
                             >
                                 Ver Menú
                             </button>
                         </div>
                     </div>
-                    <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+                    <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents -pt-12">
                         <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                             <img
                                 alt=""

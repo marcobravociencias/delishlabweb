@@ -14,6 +14,7 @@ import HeroComponent from "./Components/HeroComponent";
 import FooterComponent from "./Components/FooterComponent";
 import TimeLineComponent from "./Components/TimeLineComponent";
 import HeroTwoComponent from "./Components/HeroTwoComponent";
+import PartnersComponent from "./Components/PartnersComponent";
 
 
 
@@ -27,10 +28,11 @@ function App() {
       <div className="bg-white">
         <HeaderComponent />
         <main className="isolate">
-          <HeroComponent />
-          <TimeLineComponent />
-          <HeroTwoComponent />
-          <ProductComponents />
+            <HeroComponent />
+            <TimeLineComponent />
+            <HeroTwoComponent />
+            <ProductComponents />
+            <PartnersComponent />
         </main>
         <FooterComponent />
       </div>

@@ -1,15 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.82893739.css",
-    "main.js": "/static/js/main.dd4ee4a4.js",
+    "main.js": "/static/js/main.40892f69.js",
     "static/js/453.9c343721.chunk.js": "/static/js/453.9c343721.chunk.js",
+    "static/media/ChispasChocolateConNuez.png": "/static/media/ChispasChocolateConNuez.0e1b1376105ba3550bb6.png",
+    "static/media/CinamonRoll.png": "/static/media/CinamonRoll.8bc5dd6d3e8887c1e818.png",
+    "static/media/Oreo.png": "/static/media/Oreo.5ce968868fe0980b7852.png",
+    "static/media/Lotus.png": "/static/media/Lotus.3c3c934139714b0b47a8.png",
+    "static/media/DobleChocolate.png": "/static/media/DobleChocolate.7d12b683f044fd5307f2.png",
+    "static/media/MerenguesLimon.png": "/static/media/MerenguesLimon.83a03694a6e188dacf22.png",
+    "static/media/Mantequilla.png": "/static/media/Mantequilla.6dda9bed5d9d94989dab.png",
+    "static/media/Americano.png": "/static/media/Americano.80918fb4a24561ce4f26.png",
+    "static/media/Caramel Macchiato.png": "/static/media/Caramel Macchiato.0d57966c5f204c704964.png",
+    "static/media/Capuccino.png": "/static/media/Capuccino.6702bb5bdc046bdc03e1.png",
+    "static/media/Chocolate.png": "/static/media/Chocolate.3757d73c2a8fd238b0c5.png",
+    "static/media/Nutella.png": "/static/media/Nutella.bbbbb0be6193fea5728a.png",
+    "static/media/Latte.png": "/static/media/Latte.65ee6fdda226e631188f.png",
+    "static/media/KinderBueno.png": "/static/media/KinderBueno.6a8acc3fe42e9b8a69f9.png",
     "index.html": "/index.html",
     "main.82893739.css.map": "/static/css/main.82893739.css.map",
-    "main.dd4ee4a4.js.map": "/static/js/main.dd4ee4a4.js.map",
+    "main.40892f69.js.map": "/static/js/main.40892f69.js.map",
     "453.9c343721.chunk.js.map": "/static/js/453.9c343721.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82893739.css",
-    "static/js/main.dd4ee4a4.js"
+    "static/js/main.40892f69.js"
   ]
 }
