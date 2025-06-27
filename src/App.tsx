@@ -29,10 +29,10 @@ function App() {
         <HeaderComponent />
         <main className="isolate">
             <HeroComponent />
-            <TimeLineComponent />
-            <HeroTwoComponent />
             <ProductComponents />
-            <PartnersComponent />
+
+
+
         </main>
         <FooterComponent />
       </div>
