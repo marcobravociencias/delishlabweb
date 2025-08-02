@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .wobble-hor-bottom {
     -webkit-animation: wobble-hor-bottom 1.5s 1s infinite alternate-reverse ;
     animation: wobble-hor-bottom 1.5s 1s infinite alternate-reverse ;

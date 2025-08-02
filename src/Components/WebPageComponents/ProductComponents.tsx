@@ -7,7 +7,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/DobleChocolate.png'),
+        imageSrc: require('../../img/galletas_melcochudas/DobleChocolate.png'),
         imageAlt: '',
     },
     {
@@ -16,7 +16,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/CinamonRoll.png'),
+        imageSrc: require('../../img/galletas_melcochudas/CinamonRoll.png'),
         imageAlt: '',
     },
     {
@@ -25,7 +25,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/Lotus.png'),
+        imageSrc: require('../../img/galletas_melcochudas/Lotus.png'),
         imageAlt: '',
     },
     {
@@ -34,7 +34,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/Oreo.png'),
+        imageSrc: require('../../img/galletas_melcochudas/Oreo.png'),
         imageAlt: '',
     },
     {
@@ -43,7 +43,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/MerenguesLimon.png'),
+        imageSrc: require('../../img/galletas_melcochudas/MerenguesLimon.png'),
         imageAlt: '',
     },
     {
@@ -52,7 +52,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/KinderBueno.png'),
+        imageSrc: require('../../img/galletas_melcochudas/KinderBueno.png'),
         imageAlt: '',
     },
     {
@@ -61,7 +61,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/Nutella.png'),
+        imageSrc: require('../../img/galletas_melcochudas/Nutella.png'),
         imageAlt: '',
     },
     {
@@ -70,7 +70,7 @@ const galletas_melcochudas = [
         href: '#',
         price: '$69',
         description: '',
-        imageSrc: require('../img/galletas_melcochudas/ChispasChocolateConNuez.png'),
+        imageSrc: require('../../img/galletas_melcochudas/ChispasChocolateConNuez.png'),
         imageAlt: '',
     }
 
@@ -83,7 +83,7 @@ const galletas_mantequilla = [
             href: '#',
             price: '$75',
             description: '',
-            imageSrc: require('../img/galletas_mantequilla/Mantequilla.png'),
+            imageSrc: require('../../img/galletas_mantequilla/Mantequilla.png'),
             imageAlt: '',
         },
         {
@@ -92,7 +92,7 @@ const galletas_mantequilla = [
             href: '#',
             price: '$170',
             description: '',
-            imageSrc: require('../img/galletas_mantequilla/Mantequilla.png'),
+            imageSrc: require('../../img/galletas_mantequilla/Mantequilla.png'),
             imageAlt: '',
         },
         {
@@ -101,7 +101,7 @@ const galletas_mantequilla = [
             href: '#',
             price: '$310',
             description: '',
-            imageSrc: require('../img/galletas_mantequilla/Mantequilla.png'),
+            imageSrc: require('../../img/galletas_mantequilla/Mantequilla.png'),
             imageAlt: '',
         },
         {
@@ -110,7 +110,7 @@ const galletas_mantequilla = [
             href: '#',
             price: '$580',
             description: '',
-            imageSrc: require('../img/galletas_mantequilla/Mantequilla.png'),
+            imageSrc: require('../../img/galletas_mantequilla/Mantequilla.png'),
             imageAlt: '',
         }
     ]
@@ -122,7 +122,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$95',
         description: 'Puro, fuerte y directo. El café negro que despierta tus sentidos y combina con todo, hasta con una galleta de mantequilla recién horneada.',
-        imageSrc: require('../img/bebidas_calientes/Americano.png'),
+        imageSrc: require('../../img/bebidas_calientes/Americano.png'),
         imageAlt: '',
     },
     {
@@ -131,7 +131,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$98',
         description: 'Cremoso, suave y con la cantidad justa de café. Ideal para una tarde tranquila o para acompañar tu postre favorito.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -140,7 +140,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$113',
         description: 'Espuma ligera, caramelo dulce y café intenso. Cada sorbo es como un postre calientito (pero en taza).',
-        imageSrc: require('../img/bebidas_calientes/Caramel Macchiato.png'),
+        imageSrc: require('../../img/bebidas_calientes/Caramel Macchiato.png'),
         imageAlt: '',
     },
     {
@@ -149,7 +149,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$113',
         description: 'Clásico y espumoso, con esa mezcla perfecta de leche y café que te da justo lo que necesitas para consentirte.',
-        imageSrc: require('../img/bebidas_calientes/Capuccino.png'),
+        imageSrc: require('../../img/bebidas_calientes/Capuccino.png'),
         imageAlt: '',
     },
     {
@@ -158,7 +158,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$87',
         description: 'Súper cremoso y con sabor real a chocolate. No hay mal día que no se cure con uno de estos.',
-        imageSrc: require('../img/bebidas_calientes/Chocolate.png'),
+        imageSrc: require('../../img/bebidas_calientes/Chocolate.png'),
         imageAlt: '',
     },
     {
@@ -167,7 +167,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$92',
         description: 'Aromático, especiado y reconfortante. Un chai con leche que te calienta el alma y te deja queriendo otro.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -176,7 +176,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$105',
         description: 'El chai más atrevido: especias cálidas + un shot de espresso. Para los que aman los sabores intensos y el aroma a café recién hecho.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -185,7 +185,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$92',
         description: 'Suave, espumoso y dulce. Un chocolate blanco cremosito que se siente como un apapacho en taza.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -194,7 +194,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$105',
         description: 'Chocolate blanco caliente con un sutil toque de menta. Refrescante, dulce y perfecto para los que aman los sabores diferentes',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -203,7 +203,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$92',
         description: 'Cremoso, suave y con ese sabor herbal que tanto amamos. Refrescante, ligero y lleno de matcha vibes.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -212,7 +212,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$105',
         description: 'Matcha + un shot de espresso. Una mezcla energizante, cremosa y perfecta para quienes no pueden decidir entre té y café.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -221,7 +221,7 @@ const bebidas_calientes = [
         href: '#',
         price: '$115',
         description: 'Chocolate real, derretido lentamente con leche para lograr una textura cremosa y un sabor profundo. Intenso, reconfortante y perfectamente espeso. Ideal para los que aman el chocolate de verdad.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     }
 ]
@@ -233,7 +233,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$95',
         description: 'Refrescante, cítrica y con ese color rosa que enamora.',
-        imageSrc: require('../img/bebidas_calientes/Americano.png'),
+        imageSrc: require('../../img/bebidas_calientes/Americano.png'),
         imageAlt: '',
     },
     {
@@ -242,7 +242,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$98',
         description: 'La clásica limonada rosa con un toque dulce de cereza. Fresca, frutal y deliciosa.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -251,7 +251,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$113',
         description: 'Exótico, tropical y súper refrescante. Una mezcla vibrante de mango con maracuyá, ideal para levantar el ánimo.',
-        imageSrc: require('../img/bebidas_calientes/Caramel Macchiato.png'),
+        imageSrc: require('../../img/bebidas_calientes/Caramel Macchiato.png'),
         imageAlt: '',
     },
     {
@@ -260,7 +260,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$113',
         description: 'Trozos de fresa natural y una base cremosa. Dulce, suave y para antojo serio.',
-        imageSrc: require('../img/bebidas_calientes/Capuccino.png'),
+        imageSrc: require('../../img/bebidas_calientes/Capuccino.png'),
         imageAlt: '',
     },
     {
@@ -269,7 +269,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$87',
         description: 'Galletas Oreo trituradas en una mezcla helada y cremosa. ¡Un clásico que siempre se antoja!',
-        imageSrc: require('../img/bebidas_calientes/Chocolate.png'),
+        imageSrc: require('../../img/bebidas_calientes/Chocolate.png'),
         imageAlt: '',
     },
     {
@@ -278,7 +278,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$92',
         description: 'Nuestro chai especiado ahora en versión frappé. Frío, aromático y con ese toque cálido de canela y cardamomo.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -287,7 +287,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$105',
         description: 'Sabe a postre mexicano de la infancia, pero en frappé. Cremoso, dulce y con todo el sabor del mazapán.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -296,7 +296,7 @@ const bebidas_frappes = [
         href: '#',
         price: '$92',
         description: 'Café frío con caramelo y mucho cuerpo. Cremoso, dulce y perfecto para quienes aman los frappés cafecitos.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     },
     {
@@ -305,14 +305,14 @@ const bebidas_frappes = [
         href: '#',
         price: '$105',
         description: 'Cremoso, con un sabor suave y único, ligeramente dulce y floral.',
-        imageSrc: require('../img/bebidas_calientes/Latte.png'),
+        imageSrc: require('../../img/bebidas_calientes/Latte.png'),
         imageAlt: '',
     }
 ]
 
 function ProductComponents() {
     return (
-        <div className="bg-white">
+        <div className="bg-white" id="menu_productos">
             <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                 <h2 id="products-heading" className="sr-only">
                     Productos

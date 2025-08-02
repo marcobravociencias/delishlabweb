@@ -1,42 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import '../src/styles/extras.css'
-
-
-import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { JSX } from 'react/jsx-runtime';
-import ProductComponents from "./Components/ProductComponents";
-import HeaderComponent from "./Components/HeaderComponent";
-import HeroComponent from "./Components/HeroComponent";
-import FooterComponent from "./Components/FooterComponent";
-import TimeLineComponent from "./Components/TimeLineComponent";
-import HeroTwoComponent from "./Components/HeroTwoComponent";
-import PartnersComponent from "./Components/PartnersComponent";
-
-
-
-
+import '../src/styles/extras.css';
+import { Routes, Route } from "react-router-dom";
+import WebPageComponent from "./Components/WebPageComponents/WebPageComponent";
+import LoginComponent from "./Components/AppComponents/LoginComponent";
+import DashViewComponent from "./Components/AppComponents/DashViewComponent";
 
 function App() {
-
-
-
-  return (
-      <div className="bg-white">
-        <HeaderComponent />
-        <main className="isolate">
-            <HeroComponent />
-            <ProductComponents />
-
-
-
-        </main>
-        <FooterComponent />
-      </div>
-  );
+    return (
+            <div className="App">
+                <Routes>
+                    <Route path="/" element={<WebPageComponent />} />
+                    <Route path="/login" element={<LoginComponent />} />
+                    <Route path="/dashboard" element={<DashViewComponent />} />
+                </Routes>
+            </div>
+    );
 }
 
 export default App;

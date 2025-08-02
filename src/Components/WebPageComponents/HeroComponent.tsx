@@ -1,6 +1,9 @@
 import React from 'react';
 
 function HeroComponent() {
+    const ir_menu = () => {
+        window.location.href = "#menu_productos";
+    }
     return (
         <div className="mt-24 overflow-hidden sm:mt-36">
             <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -19,6 +22,7 @@ function HeroComponent() {
                         </div>
                         <div className="pt-12">
                             <button
+                                onClick={ir_menu}
                                 type="button"
                                 className="rounded-full bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow-xs ring-1 ring-gray-300 ring-inset hover:bg-gray-200"
                             >
