@@ -419,19 +419,19 @@ function RecetasViewComponent() {
 
     function get_recipe(id_recipe: number, name_recipe: string) {
         setSelectedRecipe({ id: id_recipe, name: name_recipe });
-
-        return {selectedRecipe && (
-            <RecipeViewComponent
-                id={selectedRecipe.id}
-                name={selectedRecipe.name}
-                onClose={() => setSelectedRecipe(null)}
-            />
-        )}
     }
+
 
 
     return (
         <div className="">
+            {selectedRecipe && (
+                <RecipeViewComponent
+                    id={selectedRecipe?.id}
+                    name={selectedRecipe?.name}
+                    onClose={() => setSelectedRecipe(null)}
+                />
+            )}
             {/******************/}
             <div>
                 <dl className="mt-5 grid grid-cols-1 divide-teal-800 overflow-hidden rounded-lg bg-gray-800 shadow-sm md:grid-cols-3 md:divide-x md:divide-y-0">

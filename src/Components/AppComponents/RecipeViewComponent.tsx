@@ -7,8 +7,8 @@ interface RecipeViewProps {
 }
 
 const RecipeViewComponent: React.FC<RecipeViewProps> = ({ id, name, onClose }) => {
-    const [recipe, setRecipe] = useState<any>(null);
-    const [loading, setLoading] = useState(true);
+    const [recipe, setRecipe] = useState<any>("null");
+    const [loading, setLoading] = useState(false);
 
     /*useEffect(() => {
         const fetchRecipe = async () => {
@@ -41,8 +41,8 @@ const RecipeViewComponent: React.FC<RecipeViewProps> = ({ id, name, onClose }) =
                             <p>No se encontró la receta.</p>
                         ) : (
                             <>
-                                <h2 className="text-xl font-bold mb-2">Modal Receta</h2>
-                                <p className="text-gray-700">Cosas Receta</p>
+                                <h2 className="text-xl font-bold mb-2">Modal Receta {id}</h2>
+                                <p className="text-gray-700">Cosas Receta {name}</p>
                                 {/* Agrega más campos según sea necesario */}
                             </>
                         )}

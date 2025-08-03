@@ -33,8 +33,8 @@ def after_request(response):
 db_config = {
     'host': 'localhost',
     'port': 5432,
-    'user': 'darkalien',
-    'password': '3080alien.!',
+    'user': 'admin_delish',
+    'password': '3090Delish.!',
     'dbname': 'delish'
 }
 
@@ -50,8 +50,10 @@ def login():
     try:
         conn = psycopg2.connect(**db_config)
         cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-        cursor.execute("SELECT id, correo, usuarios.password_hash, nombre_completo, telefono, username, rol_id, sucursal_id  FROM usuarios WHERE logical_lock = true and correo = %s", (data['correo'],))
+        cursor.execute("SELECT id, correo, usuarios.password_hash, nombre_completo, telefono, username, rol_id, sucursal_id  FROM usuarios WHERE logical_lock = false and correo = %s", (data['correo'],))
         user = cursor.fetchone()
+        print("Usario -> ", user)
+
 
         if not user or not check_password_hash(user['password_hash'], data['contraseña']):
             return jsonify({'success': False, 'message': 'Correo o contraseña incorrectos'}), 401
